@@ -18,3 +18,9 @@ $large_desktops:1440px;
     @media only screen and (max-width: $large_desktops) { @content; }
   }
 }
+
+
+ @include respond-to(large_desktops){}
+ @include respond-to(medium-screens){}
+ @include respond-to(medium-tablets){}
+ @include respond-to(handhelds){}
